@@ -23,3 +23,8 @@ Install Dependencies:
       - The above will be done in the config.py file
       - The models.py file will have credentials.
    6) FRONTEND:
+
+      - Run the main.py in the backend & Split the terminal to run the frontend.
+      - Once the initialization is ready, change directory to frontend in he other terminal; 
+         - run "npm run dev" (This will spin up the frontend server.) :- run sudo if problem persists.
+         - "npm install vite --save-dev" I ran this command to solve the issues.

@@ -1,0 +1,25 @@
+STEPS:
+Install Dependencies:
+   1) Python, React and Nodejs.
+      - npm create vite@latest Frontend -- --template react
+      - then cd frontend
+      - npm install
+      - npm run dev
+   2) In this application, build the API.
+      - create a CRUD
+      - create Routes.
+   3) Change Directory to the backend folder, then install the necessary packages for the backend(Python).
+      - sudo apt install python3-flask
+      (Challenges installing Packages)
+         - "sudo apt search SQLAlchemy" (This helps identity the appropriate package).
+         - "apt install python3-flask-sqlalchemy" (This was the command that eventually worked).
+         - "apt install python3-flask-cors" (This is "cross origin request")
+   4) Create files in the Backend folder.
+      - "main.py" - (Main endpoints of the Application).
+      - "models.py" - (Database models for the application).
+      - "config.py" - (Configurations of our applications).
+   5) BACKEND:
+      - import flask, flask sqlalchemy, cors (allows requests to be sent from a different url)
+      - The above will be done in the config.py file
+      - The models.py file will have credentials.
+   6) FRONTEND:
